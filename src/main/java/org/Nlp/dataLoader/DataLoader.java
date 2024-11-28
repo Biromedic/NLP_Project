@@ -36,6 +36,15 @@ public class DataLoader {
     }
 
     /**
+     * Returns a map of class labels to their data.
+     *
+     * @return A map containing all class data.
+     */
+    public Map<String, List<String>> getAllData() {
+        return classData;
+    }
+
+    /**
      * Calculates the class distributions based on the loaded data.
      *
      * @return A map of class labels to the count of their data entries.
